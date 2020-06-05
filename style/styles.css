@@ -1,0 +1,46 @@
+.main-container {
+    background-color: #FFF;
+    
+}
+.main-container > * {
+    padding: 30rem;
+}
+
+.header {
+    background-color: blue;
+}
+
+.check-products {
+    background-color: purple;
+}
+
+.services {
+    background-color: crimson;
+}
+
+.designers {
+    background-color: pink;
+}
+
+.shop {
+    background-color: blanchedalmond;
+}
+
+.consumer-review {
+    background-color: brown;
+}
+
+.contacts {
+    background-color: green;
+}
+
+.location {
+    background-color: yellow;
+}
+
+.gallary {
+    background-color: orchid;
+}
+
+
+
