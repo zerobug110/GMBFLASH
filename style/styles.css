@@ -1,17 +1,46 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: inherit;
+
+}
+
+html {
+    font-size: 62.5% /** ie 10px / default font-size 16px = 62.5%, 1 px is now = 10rem **/;
+    box-sizing: border-box;
+}
+
 .main-container {
     background-color: #FFF;
+    display: grid;
+    grid-template-columns: [sidebar-start] 20rem [sidebar-end full-end] 1fr repeat(8, [col-start] minmax(min-content, 14rem)[col-end]) 1fr [full-end];
+    grid-template-rows: 100vh 100vh repeat(8, 1fr);
     
 }
 .main-container > * {
-    padding: 30rem;
+  
+}
+
+.side-bar {
+    background-color: black;
+    width: 20rem;
+    height: 100vh;
+    position: fixed;
 }
 
 .header {
     background-color: blue;
+    grid-column: sidebar-end / -1;
 }
 
 .check-products {
     background-color: purple;
+    grid-column: col-start 1 / col-end;
 }
 
 .services {
