@@ -1,0 +1,24 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+ html {
+     font-size: 62.5%; // ie 10px / the defualt fontsize 16px = 62.5%, 1rem  = 10px//
+     box-sizing: border-box;
+ }
+
+ body {
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+ }
+
+ .main-container {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns:  [sidebar-start]25rem [sidebar-end] 1fr  5rem[full-start] repeat(8, [col-start] minmax(min-content, 14rem)) [col-end] 1fr [full-end] 5rem;
+    grid-template-rows: 100vh;
+}

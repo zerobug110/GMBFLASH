@@ -1,0 +1,49 @@
+.header {
+    grid-column: sidebar-end / -1;
+
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.text-box{
+    text-align: center;
+    
+}
+
+.primary-heading {
+    display: block;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 200;
+}
+
+
+
+.secondary-heading {
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    word-spacing: .4rem;
+    letter-spacing: .4rem;
+    font-weight: 100;
+
+}
+
+.btn {
+    font-size: 1.6rem;
+    background-color: #fff;
+    padding: 1rem 4rem;
+    border-radius: 20rem;
+    text-decoration: none;
+    color: #333;
+    
+}
