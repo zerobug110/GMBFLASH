@@ -15,7 +15,7 @@
 .product {
     background-color: #fff;
     width: 100%;
-    height: 30rem;
+    height: 100%;
     box-shadow: 0rem .5rem 1rem 0rem rgba(0,0,0, .1),
                 0rem .5rem 1rem 0rem rgba(0,0,0, .1);
     position: relative;
@@ -82,13 +82,14 @@
 
 .about-heading {
     width: 11rem;
-    padding-bottom: .2rem;
     margin-bottom: 2rem;
     font-size: 2rem;
     color: #333;
     text-transform: uppercase;
     font-weight: 200;
     border-bottom: .2rem solid rgb(255, 40, 172);
+
+
 }
 
 .about-text {
