@@ -1,6 +1,6 @@
 .side-bar {
     font-size: 1.6rem;
-    background-color: #092135;
+    background-color: #3489DF;
     width: 20rem;
     height: 100vh;
     position: fixed;
@@ -9,8 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-   
+    align-items: center; 
 
 }
 
@@ -18,7 +17,7 @@
 
     &__items {
        display: grid;
-       grid-row-gap: 2rem;
+       grid-row-gap: 1.5rem;
        list-style: none;
        align-items: stretch;   
     }

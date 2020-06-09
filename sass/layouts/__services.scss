@@ -15,7 +15,7 @@
 .product {
     background-color: #fff;
     width: 100%;
-    height: 100%;
+    height: 40rem;
     box-shadow: 0rem .5rem 1rem 0rem rgba(0,0,0, .1),
                 0rem .5rem 1rem 0rem rgba(0,0,0, .1);
     position: relative;
@@ -75,7 +75,7 @@
 }
 
 .img-background {
-    background-color: rgb(255, 40, 172);
+    background-color: #FDE93D;
     grid-column: 1 / span 8;
     grid-row: 2 / span 10;
 }
@@ -87,7 +87,7 @@
     color: #333;
     text-transform: uppercase;
     font-weight: 200;
-    border-bottom: .2rem solid rgb(255, 40, 172);
+    border-bottom: .2rem solid #FDE93D;
 
 
 }

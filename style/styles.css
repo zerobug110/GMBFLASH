@@ -22,7 +22,7 @@ body {
 
 .side-bar {
   font-size: 1.6rem;
-  background-color: #092135;
+  background-color: #3489DF;
   width: 20rem;
   height: 100vh;
   position: fixed;
@@ -33,7 +33,7 @@ body {
 
 .nav__items {
   display: grid;
-  grid-row-gap: 2rem;
+  grid-row-gap: 1.5rem;
   list-style: none;
   align-items: stretch; }
 
@@ -48,7 +48,7 @@ body {
 
 .header {
   grid-column: sidebar-end / -1;
-  background-image: linear-gradient(#092135e7, #092135e7), url(../images/banner.jpg);
+  background-image: url(../images/backgound5.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -94,7 +94,7 @@ body {
 .product {
   background-color: #fff;
   width: 100%;
-  height: 100%;
+  height: 40rem;
   box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1);
   position: relative;
   margin-bottom: 5rem; }
@@ -137,7 +137,7 @@ body {
     grid-row: 1 / -1; }
 
 .img-background {
-  background-color: #ff28ac;
+  background-color: #FDE93D;
   grid-column: 1 / span 8;
   grid-row: 2 / span 10; }
 
@@ -148,7 +148,7 @@ body {
   color: #333;
   text-transform: uppercase;
   font-weight: 200;
-  border-bottom: 0.2rem solid #ff28ac; }
+  border-bottom: .2rem solid #FDE93D; }
 
 .about-text {
   font-size: 1.6rem;
