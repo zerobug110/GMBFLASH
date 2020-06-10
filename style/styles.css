@@ -26,6 +26,7 @@ body {
   width: 20rem;
   height: 100vh;
   position: fixed;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3), 0 0.3rem 0.7rem rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -44,7 +45,7 @@ body {
   display: block; }
 
 .copyright {
-  color: #777; }
+  color: #333; }
 
 .header {
   grid-column: sidebar-end / -1;
@@ -83,13 +84,13 @@ body {
   color: #333; }
 
 .services {
-  grid-column: col-start 1  / col-end; }
+  grid-column: col-start 1  / col-end;
+  margin: 5rem 0; }
 
 .check-products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 5rem;
-  margin-top: 5rem; }
+  grid-gap: 5rem; }
 
 .product {
   background-color: #fff;
@@ -121,7 +122,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-column-gap: 10rem;
   grid-row-gap: 5rem;
-  margin-top: 5rem; }
+  margin-bottom: 5rem; }
   .what-we-do__text {
     padding: 2rem 5rem;
     box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1); }
@@ -131,6 +132,7 @@ body {
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(12, 3rem); }
   .about-img__img {
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1);
     width: 100%;
     height: 100%;
     grid-column: 2 / span 6;
@@ -159,12 +161,48 @@ body {
   grid-column: col-start 1  / col-end;
   margin-top: 5rem; }
 
-.shop {
-  background-color: silver;
-  grid-column: col-start 1  / col-end; }
+.portfolio {
+  grid-column: col-start 1  / col-end;
+  margin-bottom: 10rem; }
 
-.reviews {
-  background-color: orangered;
+.portfolio__nav {
+  width: 30rem;
+  margin: 3rem auto; }
+
+.portfolio__nav-item {
+  font-size: 1.6rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FDE93D;
+  border-radius: 2rem; }
+
+.portfolio__nav-link {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase; }
+
+.current:active {
+  background-color: #fff; }
+
+.section-heading {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: 200;
+  text-transform: uppercase; }
+
+.cloth {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 5rem; }
+  .cloth__product-img {
+    object-fit: cover;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%; }
+
+.review {
   grid-column: col-start 1  / col-end; }
 
 .contacts {

@@ -1,40 +1,75 @@
-.shop {
-    background-color: silver;
+.portfolio {
     grid-column: col-start 1  / col-end;
+    margin-bottom: 10rem;
 }
 
-.shop {
+.portfolio {
 
     &__container {
-
+        
     }
 
     &__nav {
-
+        width: 30rem;
+        margin: 3rem auto;
     }
-    
+
+    &__nav-item {
+        font-size: 1.6rem;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        background-color: #FDE93D;
+        border-radius: 2rem;
+       
+    }
 
     &__nav-link {
-
+        text-decoration: none;
+        color: #333;
+        text-transform: uppercase;
+        
     }
 }
 
-.cloth {
+.current:active {
+    background-color: #fff;
+
+}
+
+.section-heading {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
     
+}
+
+.cloth {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 5rem;
+
     &__product{
 
     }
 
 
     &__product-imgbox {
-
+        
     }
 
 
     &__product-img {
-
+        object-fit: cover;
+        box-shadow: 0rem .5rem 1rem 0rem rgba(0,0,0, .1),
+                    0rem .5rem 1rem 0rem rgba(0,0,0, .1);
+        width: 100%;
+        height: 100%;
     }
 
 
 
 }
+
