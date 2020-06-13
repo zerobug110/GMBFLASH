@@ -261,7 +261,8 @@ body {
 
 .gallery {
   background-color: darkorange;
-  grid-column: col-start 1  / col-end; }
+  grid-column: col-start 1  / col-end;
+  padding: 15rem; }
 
 .footer {
   background-color: crimson;
