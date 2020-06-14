@@ -1,5 +1,65 @@
-.gallery {
-    background-color: darkorange;
+.fashion {
+    background-color: green;
     grid-column: col-start 1  / col-end;
-    padding: 15rem;
+
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    &__item {
+        object-fit: cover;
+
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    &__item--1{
+        grid-column: 1 / 2;
+
+    }
+
+    &__item--2{
+        
+    }
+
+    &__item--3{
+        
+    }
+
+    &__item--4{
+        
+    }
+
+    &__item--5{
+        
+    }
+    
+    &__item--5{
+        
+    }
+    
+    &__item--7{
+        
+    }
+
+    &__item--8{
+        
+    }
+
+    &__item--9{
+        
+    }
+
+    &__item--10{
+        
+    }
+
+}
+

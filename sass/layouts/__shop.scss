@@ -1,12 +1,16 @@
-.portfolio {
-    grid-column: col-start 1  / col-end;
-    margin-bottom: 10rem;
-}
+
 
 .portfolio {
+
+    grid-column: col-start 1  / col-end;
+    margin-bottom: 10rem;
 
     &__container {
         
+    &-h2 {
+        width: 12rem;
+        margin: 0 auto;
+    }
     }
 
     &__nav {
@@ -19,7 +23,7 @@
         list-style: none;
         display: flex;
         justify-content: space-around;
-        background-color: #FDE93D;
+        background-color: $color-primary;
         border-radius: 2rem;
        
     }
@@ -37,14 +41,6 @@
 
 }
 
-.section-heading {
-    font-size: 2rem;
-    text-align: center;
-    padding-top: 2rem;
-    font-weight: 200;
-    text-transform: uppercase;
-    
-}
 
 .cloth {
     display: grid;

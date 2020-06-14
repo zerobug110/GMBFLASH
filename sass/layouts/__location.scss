@@ -1,5 +1,14 @@
-.location {
+.location{
     background-color: gold;
-
     grid-column: col-start 1  / col-end;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    
+}
+
+.map {
+    background-color: red;
+    height: 30rem;
+  
 }
