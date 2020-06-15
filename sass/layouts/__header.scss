@@ -1,9 +1,10 @@
 .header {
     grid-column: sidebar-end / -1;
+    grid-row: 1 / -1;
 
-    background-image:url(../images/backgound5.jpg);
+    background-image:linear-gradient(rgba(0,0,0, .6), rgba(0,0,0, .6)), url(../images/banner.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     
     display: flex;
     align-items: center;
@@ -15,6 +16,8 @@
 }
 
 .primary-heading {
+    text-shadow: 0 .5rem 1rem 0 rgba(0,0,0, .4);
+    color: #fff;
     display: block;
     font-size: 5rem;
     text-transform: uppercase;
@@ -25,6 +28,7 @@
 
 
 .secondary-heading {
+    color: #fff;
     display: block;
     margin-bottom: 2rem;
     font-size: 2rem;
@@ -44,5 +48,4 @@
     color: #333; 
     box-shadow:  0rem .5rem 1rem 0rem  rgba(0,0,0, .1),
     0rem  .5rem 1rem 0rem  rgba(0,0,0, .2);
-;
 }

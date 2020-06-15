@@ -1,8 +1,8 @@
 .side-bar {
     font-size: 1.6rem;
-    background-color: #3489DF;
+    background-color: $color-primary;
     width: 20rem;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     box-shadow: 0 1rem 3rem rgba(0,0,0, .3),
                  0 .3rem .7rem rgba(0,0,0, .5);
@@ -23,7 +23,7 @@
     }
 
     &__link {
-        color: #fff;
+        color: #333;
         text-decoration: none;
         text-transform: capitalize;
         display: block;
