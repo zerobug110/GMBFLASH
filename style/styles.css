@@ -26,7 +26,7 @@ body {
   background-color: #fff;
   display: grid;
   grid-template-columns: [sidebar-start] 20rem [sidebar-end] 1fr 5rem [full-start] repeat(8, [col-start] minmax(min-content, 14rem)) [col-end] 1fr [full-end] 5rem;
-  grid-template-rows: 100vh repeat(5, min-content) 100vh; }
+  grid-template-rows: 100vh repeat(5, min-content) min-content; }
 
 .side-bar {
   font-size: 1.6rem;
@@ -242,7 +242,8 @@ body {
     border-radius: 50%; }
   .review__text {
     color: #888;
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    font-style: italic; }
 
 .figure-pic {
   width: 100%;
