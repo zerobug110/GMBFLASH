@@ -26,7 +26,7 @@ body {
   background-color: #fff;
   display: grid;
   grid-template-columns: [sidebar-start] 20rem [sidebar-end] 1fr 5rem [full-start] repeat(8, [col-start] minmax(min-content, 14rem)) [col-end] 1fr [full-end] 5rem;
-  grid-template-rows: 100vh repeat(5, min-content) 70vh; }
+  grid-template-rows: 100vh repeat(5, min-content) 100vh; }
 
 .side-bar {
   font-size: 1.6rem;
@@ -247,7 +247,7 @@ body {
 .figure-pic {
   width: 100%;
   height: 100%;
-  border-radius: 55%; }
+  border-radius: 50%; }
 
 .figure-name {
   margin: 1rem 0;
@@ -338,15 +338,14 @@ td {
 
 #map {
   width: 100%;
-  height: 70rem;
+  height: 50rem;
   margin-bottom: 10rem;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2); }
 
 .fashion {
-  background-image: radial-gradient(rgba(255, 238, 0, 0.336), white);
-  grid-column: sidebar-end / -1;
-  border-radius: 10%; }
+  background-image: linear-gradient(to top, rgba(255, 238, 0, 0.418), rgba(255, 255, 255, 0.555));
+  grid-column: sidebar-end / -1; }
 
 .gallery {
   display: grid;

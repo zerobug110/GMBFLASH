@@ -1,7 +1,9 @@
 .fashion {
-    background-image: radial-gradient(rgba(255, 238, 0, 0.336), rgb(255, 255, 255));
+    background-image: linear-gradient( to top,
+        rgba(255, 238, 0, 0.418), 
+        rgba(255, 255, 255, 0.555));
     grid-column: sidebar-end / -1;
-    border-radius: 10%;
+    //border-radius: 10%;
 }
 
 
