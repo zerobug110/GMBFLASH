@@ -58,7 +58,7 @@ body {
 .header {
   grid-column: sidebar-end / -1;
   grid-row: 1 / 2;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banner.jpg);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner.jpg);
   background-size: cover;
   background-position: top;
   display: flex;
@@ -96,6 +96,8 @@ body {
   border-radius: .2rem;
   color: #333;
   box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2); }
+  .btn:hover {
+    background-color: #FDE93D; }
 
 .services {
   grid-column: col-start 1  / col-end;
@@ -121,10 +123,10 @@ body {
     text-transform: uppercase;
     font-weight: 200;
     color: #333;
-    opacity: .9;
+    opacity: .94;
     padding: .5rem 3rem;
     background-color: #fff;
-    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.6), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1);
     border-radius: .1rem;
     position: absolute;
     top: 50%;
@@ -169,11 +171,6 @@ body {
 .about-text {
   font-size: 1.6rem;
   color: #666; }
-
-.designers {
-  background-color: slateblue;
-  grid-column: col-start 1  / col-end;
-  margin-top: 5rem; }
 
 .portfolio {
   grid-column: col-start 1  / col-end;
@@ -238,7 +235,6 @@ body {
     width: 10rem;
     height: 10rem;
     margin: 0 auto;
-    background-color: orangered;
     border-radius: 50%; }
   .review__text {
     color: #888;
@@ -275,14 +271,16 @@ body {
   grid-template-rows: repeat(6, 5rem);
   grid-gap: 1rem; }
   .form > * {
+    font-family: sans-serif;
     text-transform: capitalize;
     border-radius: .2rem;
     outline: none;
     background-color: #f9f9f9;
     border: none;
-    box-shadow: 0rem 0.2rem 0.6rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.2rem 0.6rem 0rem rgba(0, 0, 0, 0.5); }
+    padding: 1rem;
+    box-shadow: 0rem 0.2rem 0.5rem 0rem rgba(0, 0, 0, 0.4), 0rem 0.2rem 0.5rem 0rem rgba(0, 0, 0, 0.1); }
   .form > *::placeholder {
-    padding: .5rem; }
+    padding: 1rem; }
   .form__name {
     grid-column: 1 / 2; }
   .form__email {
