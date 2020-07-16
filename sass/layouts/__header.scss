@@ -15,13 +15,18 @@
     text-align: center;    
 }
 
+.main-heading {
+    padding: 3rem 0;
+    margin-top: -8rem;
+}
+
 .primary-heading {
     text-shadow: 0 .5rem 1rem 0 rgba(0,0,0, .4);
     color: #fff;
     display: block;
     font-size: 5rem;
     text-transform: uppercase;
-    letter-spacing: .3rem;
+    letter-spacing: .4rem;
     font-weight: 50;
 }
 
@@ -30,11 +35,11 @@
 .secondary-heading {
     color: #fff;
     display: block;
-    margin-bottom: 2rem;
+    margin-top: -2rem;
     font-size: 2rem;
     text-transform: uppercase;
-    word-spacing: .4rem;
-    letter-spacing: .4rem;
+    word-spacing: .1rem;
+    letter-spacing: .2rem;
     font-weight: 100;
 }
 
@@ -42,6 +47,7 @@
     font-size: 1.8rem;
     background-color: #fff;
     padding: 1rem 4rem;
+    
     text-decoration: none;
     text-transform: uppercase;
     border-radius: .2rem;

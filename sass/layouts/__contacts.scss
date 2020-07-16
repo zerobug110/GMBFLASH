@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
     grid-column-gap: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 
     &__form {
         font-size: 1.6rem;
