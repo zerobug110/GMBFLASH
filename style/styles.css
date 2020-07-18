@@ -23,7 +23,7 @@ body {
   line-height: 1.7; }
 
 .main-container {
-  background-color: #fff;
+  background-color: #f9f9f9;
   display: grid;
   grid-template-columns: [sidebar-start] 20rem [sidebar-end] 1fr 5rem [full-start] repeat(8, [col-start] minmax(min-content, 14rem)) [col-end] 1fr [full-end] 5rem;
   grid-template-rows: 100vh repeat(5, min-content) min-content; }
@@ -53,7 +53,8 @@ body {
   display: block; }
 
 .copyright {
-  color: #333; }
+  color: #333;
+  text-transform: capitalize; }
 
 .header {
   grid-column: sidebar-end / -1;
@@ -145,7 +146,8 @@ body {
   margin-bottom: 5rem; }
   .what-we-do__text {
     padding: 2rem 5rem;
-    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1); }
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1);
+    background-color: #fff; }
 
 .about-img {
   display: grid;
@@ -235,6 +237,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   font-size: 1.6rem;
   padding: 2rem;
+  background-color: #fff;
   text-align: center;
   box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2); }
   .review__pic {
@@ -281,7 +284,7 @@ body {
     text-transform: capitalize;
     border-radius: .2rem;
     outline: none;
-    background-color: #f9f9f9;
+    background-color: #ffff;
     border: none;
     padding: 1rem;
     box-shadow: 0rem 0.2rem 0.5rem 0rem rgba(0, 0, 0, 0.4), 0rem 0.2rem 0.5rem 0rem rgba(0, 0, 0, 0.1); }
@@ -308,14 +311,16 @@ body {
       cursor: pointer; }
 
 .opening-hours {
-  width: 100%; }
+  width: 100%;
+  color: #444;
+  text-transform: uppercase; }
   .opening-hours__h2 {
     width: 18rem;
     margin-bottom: 2rem; }
 
 table {
   width: 100%;
-  background-color: #FDE93D;
+  background-color: #fff;
   font-size: 1.6rem;
   border-collapse: collapse;
   text-align: center;
@@ -349,7 +354,7 @@ td {
   box-shadow: 0 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2); }
 
 .fashion {
-  background-image: linear-gradient(to top, rgba(255, 238, 0, 0.418), rgba(255, 255, 255, 0.555));
+  background-image: linear-gradient(to top, rgba(255, 238, 0, 0.418), #f9f9f9);
   grid-column: sidebar-end / -1; }
 
 .gallery {

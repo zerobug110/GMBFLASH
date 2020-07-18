@@ -22,6 +22,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 5rem);
     grid-gap: 1rem;
+   
     
 
     & > *{
@@ -29,7 +30,7 @@
         text-transform: capitalize;
         border-radius: .2rem;
         outline: none;
-        background-color: #f9f9f9;
+        background-color: #ffff;
         border: none;
         padding: 1rem;
         box-shadow: 0rem .2rem .5rem 0rem rgba(0,0,0, .4),
@@ -75,7 +76,8 @@
 
 .opening-hours {
     width: 100%;
-    
+    color: #444;
+    text-transform: uppercase;
 
     &__h2 {
     
@@ -86,7 +88,7 @@
 
 table {
     width: 100%;
-    background-color: $color-primary;
+    background-color: #fff;
     font-size: 1.6rem;
     border-collapse: collapse;
     text-align: center;
