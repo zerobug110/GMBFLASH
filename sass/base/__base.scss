@@ -8,7 +8,20 @@
  html {
      font-size: 62.5%; // ie 10px / the defualt fontsize 16px = 62.5%, 1rem  = 10px//
      box-sizing: border-box;
- }
+
+     @include respond(tab-land) { // width < 1200?
+        font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+    }
+
+    @include respond(tab-port) { // width < 900?
+        font-size: 50%; //1 rem = 8px, 8/16 = 50%
+    }
+    
+    @include respond(big-desktop) {
+        font-size: 75%; //1rem = 12, 12/16
+    }
+
+}
 
  body {
     font-family: sans-serif;
@@ -21,4 +34,20 @@
     display: grid;
     grid-template-columns:  [sidebar-start]20rem [sidebar-end] 1fr  5rem[full-start] repeat(8, [col-start] minmax(min-content, 14rem)) [col-end] 1fr [full-end] 5rem;
     grid-template-rows: 100vh repeat(5, min-content) min-content;
+
+
+    @include respond (tab-port) {
+        grid-template-columns:  [sidebar-start]0 [sidebar-end] 1fr  5rem[full-start] repeat(8, [col-start] minmax(min-content, 14rem)) [col-end] 1fr [full-end] 5rem;
+        grid-template-rows: 100vh repeat(5, min-content) min-content;
+    
+        
+    }
+
+    @include respond (tab-land) {
+
+    }
+    @include respond (tab-port) {
+
+    }
+    
 }

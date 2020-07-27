@@ -14,7 +14,7 @@
     }
 
     &__nav {
-        width: 30rem;
+        width: 40rem;
         margin: 3rem auto;
     }
 
@@ -24,7 +24,7 @@
         display: flex;
         justify-content: space-around;
         background-color: $color-primary;
-        border-radius: 2rem;
+        padding: 1rem ;
        
     }
 
@@ -54,6 +54,10 @@
 
     &__product-imgbox {
         height: 25rem;
+
+        @include respond(phone) {
+            height: 45rem;
+        }
     }
 
 

@@ -7,21 +7,24 @@
 
 .check-products {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-gap: 5rem;
    
-    
 }
 
 .product {
     background-color: #fff;
     width: 100%;
-    height: 30rem;
+    height: 25rem;
     box-shadow: 0rem .5rem 1rem 0rem rgba(0,0,0, .1),
                 0rem .5rem 1rem 0rem rgba(0,0,0, .1);
     position: relative;
     margin-bottom: 5rem;
     
+    @include respond(phone) {
+        height: 40rem;
+    }
+
     &__img {
         width: 100%;
         height: 100%;
@@ -48,7 +51,7 @@
 
 .what-we-do {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     grid-column-gap: 10rem;
     grid-row-gap: 5rem;
     margin-bottom: 5rem;
