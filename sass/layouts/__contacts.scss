@@ -13,6 +13,10 @@
             width: 9rem;
             margin-bottom: 2rem;;
         }
+
+        @include respond (tab-land) {
+            font-size: 1.2em;
+        }
     }
 
 }
@@ -25,6 +29,7 @@
    
     @include respond(phone) {
         grid-template-columns: repeat(2, 1fr);
+        font-size: 1.2em;
     }
     
 
@@ -41,6 +46,7 @@
     }
     & > *::placeholder {
         padding: 1rem;
+    
         
     }
 
@@ -95,8 +101,7 @@
     color: #444;
     text-transform: uppercase;
 
-    &__h2 {
-    
+    &__h2 {    
     width: 18rem;
     margin-bottom: 2rem;
     }

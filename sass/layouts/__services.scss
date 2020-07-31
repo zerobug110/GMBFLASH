@@ -46,6 +46,10 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+
+        @include respond (tab-land) {
+            font-size: 1.3em;
+        }
     }
 }
 
@@ -57,10 +61,12 @@
     margin-bottom: 5rem;
 
     &__text {
+        font-size: 1.6rem;
        padding: 2rem 5rem;
        box-shadow: 0rem .5rem 1rem 0rem rgba(0,0,0, .1),
                     0rem .5rem 1rem 0rem rgba(0,0,0, .1);
         background-color: #fff;
+        
     }
 }
 
@@ -101,6 +107,11 @@
 .about-text {
     font-size: 1.6rem;
     color: #666;
+
+    @include respond (tab-land) {
+        font-size: 1.2em;
+        line-height: 1.5;
+    }
 }
 
 

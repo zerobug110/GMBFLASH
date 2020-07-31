@@ -1,7 +1,4 @@
-
-
 .portfolio {
-
     grid-column: col-start 1  / col-end;
     margin-bottom: 10rem;
 
@@ -26,6 +23,9 @@
         background-color: $color-primary;
         padding: 1rem ;
        
+        @include respond (phone) {
+            font-size: 2em;
+        }
     }
 
     &__nav-link {
@@ -69,7 +69,4 @@
         height: 100%;
     }
 
-
-
 }
-

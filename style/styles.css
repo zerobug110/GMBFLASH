@@ -90,13 +90,13 @@ body {
   margin-top: -8rem; }
 
 .primary-heading {
-  text-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.4);
-  color: #fff;
+  text-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.7);
+  color: #FDE93D;
   display: block;
-  font-size: 5rem;
+  font-size: 7rem;
   text-transform: uppercase;
   letter-spacing: .4rem;
-  font-weight: 50; }
+  font-weight: 500; }
 
 .secondary-heading {
   color: #fff;
@@ -156,6 +156,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    @media only screen and (max-width: 75em) {
+      .product__text {
+        font-size: 1.3em; } }
 
 .what-we-do {
   display: grid;
@@ -164,6 +167,7 @@ body {
   grid-row-gap: 5rem;
   margin-bottom: 5rem; }
   .what-we-do__text {
+    font-size: 1.6rem;
     padding: 2rem 5rem;
     box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1);
     background-color: #fff; }
@@ -196,6 +200,10 @@ body {
 .about-text {
   font-size: 1.6rem;
   color: #666; }
+  @media only screen and (max-width: 75em) {
+    .about-text {
+      font-size: 1.2em;
+      line-height: 1.5; } }
 
 .portfolio {
   grid-column: col-start 1  / col-end;
@@ -213,6 +221,9 @@ body {
     justify-content: space-around;
     background-color: #FDE93D;
     padding: 1rem; }
+    @media only screen and (max-width: 37.5em) {
+      .portfolio__nav-item {
+        font-size: 2em; } }
   .portfolio__nav-link {
     text-decoration: none;
     color: #333;
@@ -262,6 +273,9 @@ body {
   background-color: #fff;
   text-align: center;
   box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2); }
+  @media only screen and (max-width: 75em) {
+    .review {
+      font-size: 1.6em; } }
   .review__pic {
     width: 10rem;
     height: 10rem;
@@ -295,6 +309,9 @@ body {
     .contact__form-h2 {
       width: 9rem;
       margin-bottom: 2rem; }
+    @media only screen and (max-width: 75em) {
+      .contact__form {
+        font-size: 1.2em; } }
 
 .form {
   display: grid;
@@ -303,7 +320,8 @@ body {
   grid-gap: 1rem; }
   @media only screen and (max-width: 37.5em) {
     .form {
-      grid-template-columns: repeat(2, 1fr); } }
+      grid-template-columns: repeat(2, 1fr);
+      font-size: 1.2em; } }
   .form > * {
     font-family: sans-serif;
     text-transform: capitalize;
@@ -397,6 +415,10 @@ td {
   grid-template-rows: repeat(10, 4vw);
   grid-gap: 1rem;
   padding: 2rem 0; }
+  @media only screen and (max-width: 37.5em) {
+    .gallery {
+      grid-template-rows: repeat(10, 7vw);
+      grid-gap: .7em; } }
   .gallery__item {
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1), 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2); }
   .gallery__img {
