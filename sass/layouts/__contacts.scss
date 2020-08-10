@@ -80,9 +80,9 @@
         grid-column: 1 / -1;
 
         text-transform: uppercase;
-        color: #666;
+        color: #faeefa;
         font-size: 1.6rem;
-        background-color: $color-primary;
+        background-color: #9f2c75;
         text-align: center;
         height: 4rem;
         border: none;
@@ -98,7 +98,7 @@
 
 .opening-hours {
     width: 100%;
-    color: #444;
+    color: #560238;
     text-transform: uppercase;
 
     &__h2 {    
@@ -125,7 +125,7 @@ th,
 td,
 tr
 { 
-    border: 1px solid black;
+    border: 1px solid #560238;
 }
 
 th,

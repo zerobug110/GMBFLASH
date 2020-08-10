@@ -15,7 +15,7 @@
 .product {
     background-color: #fff;
     width: 100%;
-    height: 25rem;
+    height: 30rem;
     box-shadow: 0rem .5rem 1rem 0rem rgba(0,0,0, .1),
                 0rem .5rem 1rem 0rem rgba(0,0,0, .1);
     position: relative;
@@ -35,7 +35,7 @@
         font-size: 2rem;
         text-transform: uppercase;
         font-weight:200;
-        color: #333;
+        color: #560238;
         opacity: .94;
         padding: .5rem 3rem;
         background-color: #fff;    
@@ -52,7 +52,31 @@
         }
     }
 }
+.our-offers {
+    font-size: 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 5rem;
 
+    margin-bottom: 5rem;
+
+}
+
+.offers{
+    text-align: center;
+    
+    
+    &__description {
+        color: #555;
+    }
+
+    &__icon {
+        fill: #9f2c75;
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 2rem;
+    }
+}
 .what-we-do {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -62,10 +86,7 @@
 
     &__text {
         font-size: 1.6rem;
-       padding: 2rem 5rem;
-       box-shadow: 0rem .5rem 1rem 0rem rgba(0,0,0, .1),
-                    0rem .5rem 1rem 0rem rgba(0,0,0, .1);
-        background-color: #fff;
+        background-color: #faeefa;
         
     }
 }
@@ -87,7 +108,7 @@
 }
 
 .img-background {
-    background-color: #FDE93D;
+    background-color: #9f2c75;
     grid-column: 1 / span 8;
     grid-row: 2 / span 10;
 }
@@ -96,11 +117,8 @@
     width: 11rem;
     margin-bottom: 2rem;
     font-size: 2rem;
-    color: #333;
     text-transform: uppercase;
     font-weight: 200;
-    border-bottom: .2rem solid #FDE93D;
-
 
 }
 

@@ -1,7 +1,5 @@
 .fashion {
-    background-image: linear-gradient( to top,
-        rgba(255, 238, 0, 0.418), 
-        rgb(249, 249, 249));
+    background-image: linear-gradient( to top, rgb(248, 135, 205), rgb(250, 238, 250));
     grid-column: sidebar-end / -1;
 }
 
@@ -16,7 +14,7 @@
     
 
     @include respond (phone) {
-        grid-template-rows: repeat(10, 7vw);
+        grid-template-rows: repeat(10, 8vw);
         grid-gap: .7em;
 
     }

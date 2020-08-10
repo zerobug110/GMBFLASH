@@ -20,8 +20,9 @@
         list-style: none;
         display: flex;
         justify-content: space-around;
-        background-color: $color-primary;
+        background-color: #9f2c75;
         padding: 1rem ;
+        border-radius: .1rem;
        
         @include respond (phone) {
             font-size: 2em;
@@ -29,8 +30,8 @@
     }
 
     &__nav-link {
+        color: #faeefa;
         text-decoration: none;
-        color: #333;
         text-transform: uppercase;
         
     }
