@@ -1,5 +1,5 @@
 .section-heading {
-  color: #560238;
+  color: #790550;
   font-size: 2rem;
   text-align: center;
   padding-top: 2rem;
@@ -85,69 +85,80 @@ body {
   border-radius: 50%; }
 
 .facebook:hover {
-  fill: #3b5998; }
+  fill: #560238; }
 
 .twitter:hover {
-  fill: #00acee; }
+  fill: #560238; }
 
 .youtube:hover {
-  fill: #d31010ee; }
+  fill: #560238; }
 
 .social-link {
   text-decoration: none; }
 
 .copyright {
-  color: #faeefa;
+  color: #560239;
   text-transform: capitalize;
   font-weight: 600; }
 
 .header {
   grid-column: sidebar-end / -1;
   grid-row: 1 / 2;
-  background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner.jpg);
+  background-image: url(../images/background-img1.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: right;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: flex-start; }
 
 .text-box {
-  text-align: center; }
+  text-align: center;
+  margin-top: 10rem; }
 
 .main-heading {
   padding: 3rem 0;
-  margin-top: -8rem; }
+  margin: -20rem 0 0 5rem; }
+  @media only screen and (max-width: 37.5em) {
+    .main-heading {
+      margin: 10rem 0 0 1rem; } }
+  @media only screen and (max-width: 75em) {
+    .main-heading {
+      margin: -20rem 0 0 50rem; } }
 
 .primary-heading {
-  text-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.7);
-  color: #f40097;
+  color: #b80676;
   display: block;
   font-size: 7rem;
   text-transform: uppercase;
-  letter-spacing: .5rem;
-  font-weight: 350; }
+  font-weight: 550;
+  align-self: flex-start; }
+  @media only screen and (max-width: 37.5em) {
+    .primary-heading {
+      color: #560238;
+      background-color: #fff; } }
+
+.flash {
+  color: #86075a; }
+  @media only screen and (max-width: 37.5em) {
+    .flash {
+      color: #560238;
+      background-color: #fff; } }
 
 .secondary-heading {
-  color: #faeefa;
+  color: #9f2c75;
   display: block;
   margin-top: -3rem;
-  font-size: 2.5rem;
+  margin-left: 10rem;
+  font-size: 3rem;
   text-transform: uppercase;
   word-spacing: .1rem;
   letter-spacing: .2rem;
-  font-weight: 400; }
-
-.btn {
-  font-size: 1.8rem;
-  background-color: #faeefa;
-  padding: 1rem 5rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 20rem;
-  color: #560238;
-  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1), 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2); }
-  .btn:hover {
-    background-color: #f40097; }
+  font-weight: 550; }
+  @media only screen and (max-width: 37.5em) {
+    .secondary-heading {
+      color: #560238;
+      font-weight: 550;
+      background-color: #fff; } }
 
 .services {
   grid-column: col-start 1  / col-end;
@@ -198,13 +209,19 @@ body {
 
 .offers {
   text-align: center; }
+  .offers__heading {
+    font-size: 1.6rem;
+    font-weight: 550;
+    color: #9f2c75;
+    text-transform: uppercase;
+    margin-bottom: 1rem; }
   .offers__description {
-    color: #555; }
+    color: #666; }
   .offers__icon {
     fill: #9f2c75;
     width: 5rem;
     height: 5rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 1rem; }
 
 .what-we-do {
   display: grid;
@@ -342,7 +359,7 @@ body {
   margin: 1rem 0;
   font-weight: 200;
   font-size: 1.8rem;
-  color: #560238;
+  color: #9f2c75;
   text-transform: capitalize; }
 
 .contact {
@@ -443,7 +460,14 @@ td {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
   .location__h2 {
     width: 16rem;
+    margin-bottom: 1rem; }
+  .location__address {
     margin-bottom: 2rem; }
+  .location__text {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    transform: translateX(0.5rem);
+    color: #9f2c75; }
 
 #map {
   width: 100%;

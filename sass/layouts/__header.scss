@@ -2,59 +2,75 @@
     grid-column: sidebar-end / -1;
     grid-row: 1 / 2;
 
-    background-image: radial-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)), url(../images/banner.jpg);
+    background-image: url(../images/background-img1.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: right;
     
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: flex-start;   
+   
 }
 
 .text-box{
     text-align: center;    
+    margin-top: 10rem;
 }
 
 .main-heading {
     padding: 3rem 0;
-    margin-top: -8rem;
+    margin: -20rem 0 0 5rem;
+
+    @include respond(phone) {
+        margin: 10rem 0 0 1rem;
+    
+    }
+
+    @include respond(tab-land) {
+        margin: -20rem 0 0 50rem;
+    
+    }
 }
 
 .primary-heading {
-    text-shadow: 0 .5rem 1rem 0 rgba(0,0,0, .7);
-    color: #f40097;
+   // text-shadow: 0 .5rem 1rem 0 rgba(0,0,0, .7);
+    color: #b80676;
     display: block;
     font-size: 7rem;
     text-transform: uppercase;
-    letter-spacing: .5rem;
-    font-weight: 350;
-}
+    font-weight: 550;
+    align-self: flex-start;
 
+    @include respond(phone) {
+        color: #560238;
+        background-color: #fff;
+    }
+}
+.flash {
+    color: #86075a;
+
+    @include respond(phone) {
+        color: #560238;
+        background-color: #fff;
+    
+    }
+}
 
 
 .secondary-heading {
-    color: #faeefa;
+    color: #9f2c75;
     display: block;
     margin-top: -3rem;
-    font-size: 2.5rem;
+    margin-left: 10rem;
+    font-size: 3rem;
     text-transform: uppercase;
     word-spacing: .1rem;
     letter-spacing: .2rem;
-    font-weight: 400;
-}
+    font-weight: 550;
 
-.btn {
-    font-size: 1.8rem;
-    background-color: #faeefa;
-    padding: 1rem 5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 20rem;
-    color: #560238; 
-    box-shadow:  0rem .5rem 1rem 0rem  rgba(0,0,0, .1),
-                 0rem  .5rem 1rem 0rem  rgba(0,0,0, .2);
-
-    &:hover {
-        background-color: #f40097;
+    @include respond(phone) {
+        color: #560238;
+        font-weight: 550;
+        background-color: #fff;
     }
 }

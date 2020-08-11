@@ -65,16 +65,22 @@
 .offers{
     text-align: center;
     
-    
+    &__heading {
+        font-size: 1.6rem;
+        font-weight: 550;
+        color: #9f2c75;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
     &__description {
-        color: #555;
+        color: #666;
     }
 
     &__icon {
         fill: #9f2c75;
         width: 5rem;
         height: 5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 }
 .what-we-do {

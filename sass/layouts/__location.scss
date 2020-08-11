@@ -10,7 +10,16 @@
 
     &__h2 {
         width: 16rem;
+        margin-bottom: 1rem;
+    }
+    &__address {
         margin-bottom: 2rem;
+    }
+    &__text {
+        font-size: 1.6rem;
+        text-transform: capitalize;
+        transform: translateX(.5rem);
+        color: #9f2c75;
     }
 }
 
