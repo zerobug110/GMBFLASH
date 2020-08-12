@@ -22,6 +22,8 @@
 }
 
 .form {
+    font-size: 1.6rem;
+    font-family: 'roboto',sans-serif;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 5rem);
@@ -34,21 +36,20 @@
     
 
     & > *{
+        font-size: 1.6rem;
         font-family: sans-serif;
-        text-transform: capitalize;
         border-radius: .2rem;
         outline: none;
         background-color: #ffff;
         border: none;
         padding: 1rem;
-        box-shadow: 0rem .2rem .5rem 0rem rgba(0,0,0, .4),
-                    0rem .2rem .5rem 0rem rgba(0,0,0, .1);
-    }
-    & > *::placeholder {
-        padding: 1rem;
-    
-        
-    }
+        box-shadow: 0rem .1rem .2rem 0rem rgba(0,0,0, .4),
+                    0rem .1rem .2rem 0rem rgba(0,0,0, .1);
+        &::placeholder {
+            text-transform: capitalize;
+            font-size: 1.5rem;
+        }
+    }   
 
     &__name {
         grid-column: 1 / 2;
@@ -114,8 +115,8 @@ table {
     border-collapse: collapse;
     text-align: center;
     border-radius: .2rem;
-    box-shadow: 0rem .2rem .6rem 0rem rgba(0,0,0, .1),
-                0rem .2rem .6rem 0rem rgba(0,0,0, .5);
+    box-shadow: 0rem .1rem .3rem 0rem rgba(0,0,0, .4),
+                0rem .1rem .3rem 0rem rgba(0,0,0, .1);
 
 }
 

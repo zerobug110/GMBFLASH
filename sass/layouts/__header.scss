@@ -20,15 +20,15 @@
 
 .main-heading {
     padding: 3rem 0;
-    margin: -20rem 0 0 5rem;
+    margin: -20vh 0 0 5vw;
 
     @include respond(phone) {
-        margin: 10rem 0 0 1rem;
+       margin: 0 0 0 1rem;
     
     }
 
     @include respond(tab-land) {
-        margin: -20rem 0 0 50rem;
+        //margin: -20rem 0 0 50rem;
     
     }
 }
@@ -39,12 +39,12 @@
     display: block;
     font-size: 7rem;
     text-transform: uppercase;
-    font-weight: 550;
+    font-weight: 600;
     align-self: flex-start;
 
     @include respond(phone) {
         color: #560238;
-        background-color: #fff;
+       background-color: #fff;
     }
 }
 .flash {
@@ -52,7 +52,7 @@
 
     @include respond(phone) {
         color: #560238;
-        background-color: #fff;
+       background-color: #fff;
     
     }
 }
@@ -72,6 +72,6 @@
     @include respond(phone) {
         color: #560238;
         font-weight: 550;
-        background-color: #fff;
+        //background-color: #fff;
     }
 }

@@ -16,10 +16,12 @@
         margin-bottom: 2rem;
     }
     &__text {
+        font-family: 'Philosopher', 'Roboto', sans-serif;
         font-size: 1.6rem;
         text-transform: capitalize;
         transform: translateX(.5rem);
         color: #9f2c75;
+        
     }
 }
 
@@ -28,6 +30,6 @@
     height: 50rem;
     margin-bottom: 5rem;
     border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem 0rem rgba(0,0,0, .1),
-                0 .5rem 1rem 0rem rgba(0,0,0, .2);
+    box-shadow: 0rem .1rem .2rem 0rem rgba(0,0,0, .4),
+                0rem .1rem .2rem 0rem rgba(0,0,0, .1);
 }
