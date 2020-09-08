@@ -52,6 +52,9 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center; }
+  @media only screen and (min-width: 112.5em) {
+    .side-bar {
+      width: 30rem; } }
   @media only screen and (max-width: 56.25em) {
     .side-bar {
       display: none; } }
@@ -110,18 +113,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start; }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      background-position: center; } }
 
 .text-box {
   font-family: 'Philosopher','roboto', sans-serif;
   text-align: center;
   margin-top: 10rem; }
+  @media only screen and (min-width: 112.5em) {
+    .text-box {
+      margin-left: 7rem; } }
+  @media only screen and (max-width: 56.25em) {
+    .text-box {
+      position: absolute;
+      left: 0;
+      top: 35vh; } }
 
 .main-heading {
   padding: 3rem 0;
   margin: -20vh 0 0 5vw; }
   @media only screen and (max-width: 37.5em) {
     .main-heading {
-      margin: 0 0 0 1rem; } }
+      margin: -20vh 0 0 0; } }
 
 .primary-heading {
   color: #b80676;
@@ -130,17 +144,17 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   align-self: flex-start; }
+  @media only screen and (min-width: 112.5em) {
+    .primary-heading {
+      font-size: 10rem; } }
   @media only screen and (max-width: 37.5em) {
     .primary-heading {
       color: #560238;
-      background-color: #fff; } }
+      font-size: 6rem;
+      text-align: center; } }
 
 .flash {
   color: #86075a; }
-  @media only screen and (max-width: 37.5em) {
-    .flash {
-      color: #560238;
-      background-color: #fff; } }
 
 .secondary-heading {
   color: #9f2c75;
@@ -152,10 +166,16 @@ body {
   word-spacing: .1rem;
   letter-spacing: .2rem;
   font-weight: 550; }
+  @media only screen and (min-width: 112.5em) {
+    .secondary-heading {
+      font-size: 4rem;
+      margin-left: 15rem; } }
   @media only screen and (max-width: 37.5em) {
     .secondary-heading {
       color: #560238;
-      font-weight: 550; } }
+      font-weight: 550;
+      margin-left: 5rem;
+      text-align: center; } }
 
 .services {
   grid-column: col-start 1  / col-end;
@@ -478,7 +498,7 @@ td {
   box-shadow: 0rem 0.1rem 0.2rem 0rem rgba(0, 0, 0, 0.4), 0rem 0.1rem 0.2rem 0rem rgba(0, 0, 0, 0.1); }
 
 .fashion {
-  background-image: linear-gradient(to top, #f887cd, #faeefa);
+  background-image: linear-gradient(to top, #ffa4dc, #faeefa);
   grid-column: sidebar-end / -1; }
 
 .gallery {

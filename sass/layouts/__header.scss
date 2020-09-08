@@ -8,7 +8,12 @@
     
     display: flex;
     align-items: center;
-    justify-content: flex-start;   
+    justify-content: flex-start;
+    
+    @include respond(phone) {
+        background-position: center;
+       
+    }
    
 }
 
@@ -16,6 +21,18 @@
     font-family: 'Philosopher','roboto', sans-serif;
     text-align: center;    
     margin-top: 10rem;
+   
+    @include respond (big-desktop) {
+        margin-left: 7rem;
+    }
+
+    @include respond (tab-port) {
+        position: absolute;
+        left: 0;
+        top: 35vh;
+    }
+
+    
 }
 
 .main-heading {
@@ -23,13 +40,9 @@
     margin: -20vh 0 0 5vw;
 
     @include respond(phone) {
-       margin: 0 0 0 1rem;
+        margin: -20vh 0 0 0;
     
-    }
-
-    @include respond(tab-land) {
-        //margin: -20rem 0 0 50rem;
-    
+      
     }
 }
 
@@ -42,19 +55,20 @@
     font-weight: 600;
     align-self: flex-start;
 
-    @include respond(phone) {
-        color: #560238;
-       background-color: #fff;
+    @include respond (big-desktop) {
+        font-size: 10rem;
     }
-}
-.flash {
-    color: #86075a;
 
     @include respond(phone) {
         color: #560238;
-       background-color: #fff;
-    
+        font-size: 6rem;
+        text-align: center;
     }
+}
+
+.flash {
+    color: #86075a;
+
 }
 
 
@@ -69,9 +83,16 @@
     letter-spacing: .2rem;
     font-weight: 550;
 
+    @include respond (big-desktop) {
+        font-size: 4rem;
+        margin-left: 15rem;
+    }
+
     @include respond(phone) {
         color: #560238;
         font-weight: 550;
+        margin-left: 5rem;
+        text-align: center;
         //background-color: #fff;
     }
 }
