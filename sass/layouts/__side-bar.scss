@@ -16,8 +16,25 @@
     }
 
     @include respond(tab-port) {
-        display: none;
+       justify-content: space-evenly;
+       font-size: 2rem;
+       width: 0;
+       pointer-events: none;
+       opacity: 0;
+       transition: all .3s ease-out;
+       box-shadow: 0 5rem 15rem rgba(0,0,0, .8);
+       height: 100%;
+       position: fixed;
+
     }
+    
+}
+
+.open {
+    width: 100%;
+    pointer-events: none;
+    opacity: 1;
+    z-index: 8;
     
 }
 
