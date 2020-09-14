@@ -3,4 +3,5 @@ const lines = document.querySelector('.lines');
 
 lines.addEventListener('click', () => {
     sideBar.classList.toggle('open');
-})
+});
+

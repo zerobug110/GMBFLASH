@@ -2,7 +2,7 @@
     grid-column: sidebar-end / -1;
     grid-row: 1 / 2;
 
-    background-image: url(../images/background-img1.jpg);
+    background-image: url(../images/bck1.jpg);
     background-size: cover;
     background-position: right;
     
@@ -18,7 +18,7 @@
 }
 
 .text-box{
-    font-family: 'Philosopher','roboto', sans-serif;
+    font-family: 'roboto', sans-serif;
     text-align: center;    
     margin-top: 10rem;
    
@@ -117,6 +117,5 @@
         font-weight: 550;
         margin-left: 5rem;
         text-align: center;
-        //background-color: #fff;
     }
 }
