@@ -157,9 +157,9 @@ body {
   top: 4rem;
   left: 4rem;
   z-index: 20;
-  display: none;
-  position: fixed; }
-  @media only screen and (max-width: 75em) {
+  position: fixed;
+  display: none; }
+  @media only screen and (max-width: 56.25em) {
     .lines {
       display: block; } }
 

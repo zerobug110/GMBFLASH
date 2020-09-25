@@ -41,13 +41,10 @@
     top: 4rem;
     left: 4rem;
     z-index: 20;
-    display: none;
     position: fixed;
+    display: none;
     
-    
-
-
-    @include respond (tab-land) {
+    @include respond (tab-port) {
         display: block;
     }
 }
