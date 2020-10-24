@@ -339,7 +339,8 @@ body {
     justify-content: space-around;
     background-color: #9f2c75;
     padding: 1rem;
-    border-radius: .1rem; }
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem; }
     @media only screen and (max-width: 37.5em) {
       .portfolio__nav-item {
         font-size: 2em; } }
@@ -353,8 +354,8 @@ body {
 
 .cloth {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  grid-gap: 5rem; }
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: 1rem; }
   .cloth__product-imgbox {
     height: 25rem; }
     @media only screen and (max-width: 37.5em) {
@@ -365,6 +366,12 @@ body {
     box-shadow: 0rem 0.1rem 0.2rem 0rem rgba(0, 0, 0, 0.4), 0rem 0.1rem 0.2rem 0rem rgba(0, 0, 0, 0.1);
     width: 100%;
     height: 100%; }
+
+.panel-1 {
+  position: relative; }
+
+.panel-2 {
+  position: absolute; }
 
 .reviews {
   grid-column: col-start 1  / col-end;
