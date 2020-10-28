@@ -49,6 +49,10 @@
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     grid-gap: 1rem;
 
+    position: absolute;
+    z-index: 1;
+    
+
     &__product{
         
     }
@@ -73,10 +77,9 @@
 
 }
 
-.panel-1 {
-    position: relative;
-}
+.cloth-category {
+  height: 70rem;
+  position: relative;
 
-.panel-2 {
-    position: absolute;
+    
 }

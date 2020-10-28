@@ -355,7 +355,9 @@ body {
 .cloth {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
-  grid-gap: 1rem; }
+  grid-gap: 1rem;
+  position: absolute;
+  z-index: 1; }
   .cloth__product-imgbox {
     height: 25rem; }
     @media only screen and (max-width: 37.5em) {
@@ -367,11 +369,9 @@ body {
     width: 100%;
     height: 100%; }
 
-.panel-1 {
+.cloth-category {
+  height: 70rem;
   position: relative; }
-
-.panel-2 {
-  position: absolute; }
 
 .reviews {
   grid-column: col-start 1  / col-end;
